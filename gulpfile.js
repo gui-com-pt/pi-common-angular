@@ -17,7 +17,7 @@ var gulp = require('gulp'),
 gulp.task('scripts', function(){
 
     gulp.src(appModules)
-        .pipe(concat('pi-settings-angular.js'))
+        .pipe(concat('pi-common-angular.js'))
         .pipe(gulp.dest('./dist'));
 });
 
