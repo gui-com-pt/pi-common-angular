@@ -19,7 +19,7 @@
 					dataURLtoBlob: function(obj) {
             return dataURLtoBlob(obj);
           },
-          typeFromBlog: function(blobStr) {
+          typeFromBlob: function(blobStr) {
             return blobStr.substring(blobStr.lastIndexOf(":")+1,blobStr.lastIndexOf(";"))
           }
 				}
