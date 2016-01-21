@@ -1,4 +1,4 @@
-describe('Settings Service Test', function() {
+describe('Type Utils and Enum Test', function() {
   var typeUtils,
       typeEnum;
 
